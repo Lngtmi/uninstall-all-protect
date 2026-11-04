@@ -13,20 +13,12 @@ uninstall-all-protect.sh
 - Dijalankan sebagai **root** di VPS tempat panel terinstall
 - Panel Reviactyl di `/var/www/reviactyl` dan/atau Pterodactyl di `/var/www/pterodactyl`
 
-## Cara Pakai — Pilih 2 Model
+## Cara Pakai — Bash (1 perintah)
 
-### Model 1 — Bash (1 perintah, langsung jalan dari GitHub)
+Ini satu-satunya cara pakai yang disarankan. Tidak perlu download apa pun — jalankan di VPS panel sebagai root:
 
 ```bash
 bash <(curl -fsSL https://raw.githubusercontent.com/Lngtmi/uninstall-all-protect/main/uninstall-all-protect.sh)
-```
-
-### Model 2 — Source Code (download / clone dulu)
-
-```bash
-git clone https://github.com/Lngtmi/uninstall-all-protect.git
-cd uninstall-all-protect
-sudo bash uninstall-all-protect.sh
 ```
 
 ## Yang dilakukan
